@@ -10,6 +10,7 @@ body {
 header h1 {
     text-align: center;
     padding: 20px;
+    text-shadow:0 0 2px #d40707,0 0 30px #bd4602,0px 0px 5px #cc5404, 0 0 150px #FFD100;color:#FFD100;
 }
 
 main {
@@ -20,6 +21,7 @@ main {
 }
 
 section {
+    box-shadow: 10px 5px 5px black;
     padding: 20px;
     background-color: #444;
     margin-bottom: 20px; 
@@ -29,9 +31,11 @@ section h2 {
     color: orangered;
     font-size: 1.5em;
     margin-bottom: 20px;
+    
 }
 
 section h3 {
+
     font-size: 1.2em;
     margin-bottom: 10px;
 }
@@ -66,7 +70,7 @@ progress {
 }
 
 h3 a {
-color: orangered;
+    color: orangered;
 }
 
 hr {
